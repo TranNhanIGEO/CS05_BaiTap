@@ -1,0 +1,14 @@
+D:\Learn_C#_KHTN\CS05_BaiTap\bin\Debug\net7.0\CS05_BaiTap.exe
+D:\Learn_C#_KHTN\CS05_BaiTap\bin\Debug\net7.0\CS05_BaiTap.deps.json
+D:\Learn_C#_KHTN\CS05_BaiTap\bin\Debug\net7.0\CS05_BaiTap.runtimeconfig.json
+D:\Learn_C#_KHTN\CS05_BaiTap\bin\Debug\net7.0\CS05_BaiTap.dll
+D:\Learn_C#_KHTN\CS05_BaiTap\bin\Debug\net7.0\CS05_BaiTap.pdb
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.AssemblyInfoInputs.cache
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.AssemblyInfo.cs
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.csproj.CoreCompileInputs.cache
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.dll
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\refint\CS05_BaiTap.dll
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.pdb
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\CS05_BaiTap.genruntimeconfig.cache
+D:\Learn_C#_KHTN\CS05_BaiTap\obj\Debug\net7.0\ref\CS05_BaiTap.dll
