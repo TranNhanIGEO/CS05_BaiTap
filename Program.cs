@@ -10,16 +10,15 @@ namespace CSharp
             Console.InputEncoding = Encoding.UTF8;
             Console.OutputEncoding = Encoding.UTF8;
 
-            // Console.Write("Nhập số lượng phần tử: ");
-            // int n = int.Parse(Console.ReadLine());
-            // int[] arr = new int[n];
-            // for (int i = 0; i < n; i++)
-            // {
-            //     Console.Write("Nhập phần tử thứ : ");
-            //     arr[i] = int.Parse(Console.ReadLine());
-            // }
+            Console.Write("Nhập số lượng phần tử: ");
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("Nhập phần tử thứ : ");
+                arr[i] = int.Parse(Console.ReadLine());
+            }
 
-            int[] arr = { 5, 8, 2, 3, 4, 7, 2, 5, 8, 9, 2, 3, 5, 8, 1 };
             BaiTap1(arr);
             BaiTap2(arr);
             BaiTap3(arr);
