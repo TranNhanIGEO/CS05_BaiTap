@@ -124,13 +124,13 @@ namespace CSharp
         static void BaiTap6(int[] arr)
         {
             Console.WriteLine("===== Sắp xếp mảng theo thứ tự giảm dần =====");
-            Console.Write("Cách 1: ");
             static void Swap(ref int a, ref int b)
             {
                 int t = a;
                 a = b;
                 b = t;
             }
+            
             for (int i = 1; i < arr.Length; i++)
             {
                 for (int j = 0; j < i; j++)
@@ -144,34 +144,28 @@ namespace CSharp
                 Console.Write($"{num} ");
             }
             Console.WriteLine();
-
-            Console.Write("Cách 2: ");
-            var newArr = arr.OrderByDescending(x => x);
-            foreach (var num in newArr)
-            {
-                Console.Write($"{num} ");
-            }
-            Console.WriteLine();
         }
         static void BaiTap7(int[] arr)
         {
             Console.WriteLine("===== Tìm kiếm phần tử lớn hơn hai trong mảng dữ liệu ban đầu =====");
-            Console.Write("Cách 1: ");
-            for (int i = 0; i < arr.Length; i++)
+            static int MaxValue(int[] arr)
             {
-                if (arr[i] <= 2) continue;
-                int num = arr[i];
-                Console.Write($"{num} ");
+                int maxValue = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (maxValue < arr[i]) maxValue = arr[i];
+                }
+                return maxValue;
             }
-            Console.WriteLine();
-
-            Console.Write("Cách 2: ");
-            var newArr = arr.Where((x => x > 2)).ToArray();
-            foreach (var num in newArr)
-            {
-                Console.Write($"{num} ");
-            }
-            Console.WriteLine();
+            
+            int[] arr = { 1, 2, 3, 4, 5, 6 };
+            int max;
+            max = MaxValue(arr);
+            arr = arr.Where(x => x != max).ToArray();
+            max = MaxValue(arr);
+            Console.WriteLine(max);
+            Console.ReadKey();
+            
         }
     }
 }
