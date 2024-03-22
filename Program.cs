@@ -108,6 +108,8 @@ namespace CSharp
                     y++;
                 }
             }
+            Array.Resize(ref evenArr, x);
+            Array.Resize(ref oddArr, y);
             for (int i = 0; i < x; i++)
             {
                 int num = evenArr[i];
@@ -147,7 +149,7 @@ namespace CSharp
         }
         static void BaiTap7(int[] arr)
         {
-            Console.WriteLine("===== Tìm kiếm phần tử lớn hơn hai trong mảng dữ liệu ban đầu =====");
+            Console.WriteLine("===== Tìm kiếm phần tử lớn thứ hai trong mảng dữ liệu ban đầu =====");
             static int MaxValue(int[] arr)
             {
                 int maxValue = arr[0];
@@ -158,14 +160,12 @@ namespace CSharp
                 return maxValue;
             }
             
-            int[] arr = { 1, 2, 3, 4, 5, 6 };
             int max;
             max = MaxValue(arr);
             arr = arr.Where(x => x != max).ToArray();
             max = MaxValue(arr);
             Console.WriteLine(max);
             Console.ReadKey();
-            
         }
     }
 }
